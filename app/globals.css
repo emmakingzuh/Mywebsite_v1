@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Editorial monochrome system — black, white, warm gray */
+    --background: 0 0% 4%;
+    --foreground: 40 6% 96%;
+    --card: 0 0% 6%;
+    --card-foreground: 40 6% 96%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 40 6% 96%;
+    --primary: 40 6% 96%;
+    --primary-foreground: 0 0% 4%;
+    --secondary: 30 4% 12%;
+    --secondary-foreground: 40 6% 96%;
+    --muted: 30 4% 14%;
+    --muted-foreground: 30 5% 70%;
+    --accent: 40 6% 96%;
+    --accent-foreground: 0 0% 4%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 40 6% 96%;
+    --border: 30 4% 16%;
+    --input: 30 4% 16%;
+    --ring: 40 6% 70%;
+    --radius: 0.25rem;
+
+    /* Ambient atmospheric tokens (driven by JS) */
+    --ambient-1: 24 80% 55%;
+    --ambient-2: 340 70% 55%;
+    --ambient-3: 200 70% 50%;
+    --ambient-ink: 0 0% 100%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv03";
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: hsl(var(--foreground));
+    color: hsl(var(--background));
+  }
+}
+
+@layer base {
+  /* Hide native cursor on devices that support the custom cursor */
+  @media (hover: hover) and (pointer: fine) {
+    .custom-cursor-active * {
+      cursor: none !important;
+    }
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display), serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+  .font-sans-editorial {
+    font-family: var(--font-sans), system-ui, sans-serif;
+  }
+  .font-mono-label {
+    font-family: var(--font-mono), monospace;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .editorial-container {
+    @apply mx-auto w-full max-w-[1600px] px-6 sm:px-10 lg:px-16;
+  }
+
+  .glass {
+    background: hsl(0 0% 100% / 0.04);
+    backdrop-filter: blur(20px) saturate(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(140%);
+    border: 1px solid hsl(0 0% 100% / 0.08);
+  }
+
+  .hairline {
+    border-color: hsl(40 6% 96% / 0.12);
+  }
+}
+
+@layer utilities {
+  .text-gradient-ink {
+    background: linear-gradient(180deg, hsl(40 6% 99%) 0%, hsl(30 5% 70%) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .mask-fade-b {
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  }
+
+  .blend-difference {
+    mix-blend-mode: difference;
+  }
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
