@@ -40,7 +40,15 @@ function igId(url: string): string {
 }
 
 function ytThumb(id: string): string {
-  return `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`
+  return id ? `https://i.ytimg.com/vi/${id}/maxresdefault.jpg` : ''
+}
+
+export function sortByThumbnail<T extends { thumbnail: string }>(list: T[]): T[] {
+  return [...list].sort((a, b) => {
+    const aHas = a.thumbnail ? 0 : 1
+    const bHas = b.thumbnail ? 0 : 1
+    return aHas - bHas
+  })
 }
 
 export const projects: Project[] = [
@@ -51,12 +59,12 @@ export const projects: Project[] = [
     platform: 'vimeo',
     url: 'https://vimeo.com/623651970',
     embedId: '623651970',
+    thumbnail: 'https://i.vimeocdn.com/video/2109334335-7fc3bf63088a76b687a691373136050fba763fa3f53a57d39cd597591237c5c5-d_1920?region=us',
     description: 'A cinematic showcase of selected motion design, animation, and visual effects work from 2020–2026.',
     longDescription: 'A curated retrospective of motion design, 2D and 3D animation, augmented reality experiences, and creative direction work produced between 2020 and 2023. This reel brings together music visualizers, brand identity animations, AR activations, and experimental pieces into a single cinematic narrative — demonstrating range across technique, tone, and medium.',
     role: 'Motion Designer, Animator, Editor',
     client: 'Emmykingz Studios',
     year: '2023',
-    thumbnail: '',
     featured: true,
   },
   {
@@ -136,12 +144,12 @@ export const projects: Project[] = [
     platform: 'vimeo',
     url: 'https://vimeo.com/931757738',
     embedId: vimeoId('https://vimeo.com/931757738'),
+    thumbnail: 'https://i.vimeocdn.com/video/1829144041-d13ad42d703e75370c77d8fda5a238096170138aa1628feaeb8b9789b8fcb34d-d_1920?region=us',
     description: 'Promotional motion graphics video for RBSM Marketplace, a Canadian e-commerce platform.',
     longDescription: 'A polished promotional motion piece for RBSM Marketplace, a Canada-based e-commerce platform. The animation walks viewers through the platform\'s value proposition using clean iconography, smooth transitions, and a confident visual system. Designed to communicate utility and trust while maintaining a modern, approachable tone.',
     role: 'Motion Designer, Animator',
     client: 'RBSM Marketplace',
     year: '2022',
-    thumbnail: '',
   },
   {
     id: 'predeet',
@@ -150,12 +158,12 @@ export const projects: Project[] = [
     platform: 'vimeo',
     url: 'https://vimeo.com/931757637',
     embedId: vimeoId('https://vimeo.com/931757637'),
+    thumbnail: 'https://i.vimeocdn.com/video/1829143877-948cc4c93dadc2dc27d92aef7a06834082356a6dae8c3faab97ec29ad378aba1-d_1920?region=us',
     description: 'Brand motion graphics and promotional video for Predeet.',
     longDescription: 'A brand-forward motion graphics piece for Predeet. The animation introduces the brand\'s visual language through dynamic typography, shape animation, and a cohesive color system. The result is a concise, engaging introduction that communicates the brand\'s personality in under a minute.',
     role: 'Motion Designer, Animator',
     client: 'Predeet',
     year: '2022',
-    thumbnail: '',
   },
   {
     id: 'amapiano-district',
@@ -248,12 +256,12 @@ export const projects: Project[] = [
     platform: 'vimeo',
     url: 'https://vimeo.com/933186692',
     embedId: vimeoId('https://vimeo.com/933186692'),
+    thumbnail: 'https://i.vimeocdn.com/video/1831530257-d000798ee14641f9aba86102e8fd78cdb6ee84131a59535ccf746d02e6a760dd-d_1920?region=us',
     description: 'Custom YouTube channel intro animation for Lekexiv.',
     longDescription: 'A branded YouTube intro animation for content creator Lekexiv. The piece establishes a recognizable visual signature that plays at the start of every video, building brand consistency across the channel. The animation is short, punchy, and designed to be re-watched hundreds of times without losing its impact.',
     role: 'Motion Designer, Animator',
     client: 'Lekexiv',
     year: '2023',
-    thumbnail: '',
   },
   {
     id: 'degeneral-intro',
@@ -262,12 +270,12 @@ export const projects: Project[] = [
     platform: 'vimeo',
     url: 'https://vimeo.com/933186324',
     embedId: vimeoId('https://vimeo.com/933186324'),
+    thumbnail: 'https://i.vimeocdn.com/video/1831530190-135ebd79c9750166a50db4076e76188fe848df76f73f569e105ddcc1686025ff-d_1920?region=us',
     description: 'Brand intro animation for Degeneral.',
     longDescription: 'A brand identity intro animation for Degeneral. The piece distills the brand\'s visual language into a concise, memorable sequence — combining logo animation, signature colors, and motion principles into a reusable asset. The intro serves as a visual handshake, setting expectations for quality before the content even begins.',
     role: 'Motion Designer, Animator',
     client: 'Degeneral',
     year: '2023',
-    thumbnail: '',
   },
   {
     id: 'nelsonegh-logo',
@@ -276,12 +284,12 @@ export const projects: Project[] = [
     platform: 'vimeo',
     url: 'https://vimeo.com/497831795',
     embedId: vimeoId('https://vimeo.com/497831795'),
+    thumbnail: 'https://i.vimeocdn.com/video/1030208677-0e5f6b8dc055ede92cbd58ca3590e002ee3b99bfcf0d3ceada2a2bebc490fdec-d_1920?region=us',
     description: 'Animated logo reveal for Nelsonegh, an Atlanta-based content creator.',
     longDescription: 'A polished logo animation for Nelsonegh, an Atlanta-based content creator and brand. The reveal transforms a static logo into a dynamic, animated asset suitable for video intros, social media, and brand content. The animation balances personality with professionalism, creating a signature that feels both approachable and premium.',
     role: 'Motion Designer, Animator',
     client: 'Nelsonegh',
     year: '2021',
-    thumbnail: '',
   },
   {
     id: 'sppace-logo',
@@ -290,12 +298,12 @@ export const projects: Project[] = [
     platform: 'vimeo',
     url: 'https://vimeo.com/559341863',
     embedId: vimeoId('https://vimeo.com/559341863'),
+    thumbnail: 'https://i.vimeocdn.com/video/1156026553-b3b3790bf3d4a1cb789b9fba4cc0247f3b39e0f3cc2c03ebc61626b40ea4f0b5-d_1920?region=us',
     description: 'Animated logo reveal for Sppace.',
     longDescription: 'A sleek logo animation for Sppace. The reveal uses geometric construction, precise timing, and minimalist motion to build the brand mark from its constituent parts. The result is an animation that feels architectural and intentional — a fitting signature for a brand built on structure and space.',
     role: 'Motion Designer, Animator',
     client: 'Sppace',
     year: '2021',
-    thumbnail: '',
   },
   {
     id: 'omah-lay-holy-ghost',
@@ -304,12 +312,12 @@ export const projects: Project[] = [
     platform: 'vimeo',
     url: 'https://vimeo.com/931748818',
     embedId: vimeoId('https://vimeo.com/931748818'),
+    thumbnail: 'https://i.vimeocdn.com/video/1829130555-c2c1d1de0ecdbabd5d857b32c01fb0112663a25dc911e748b5975c6b576b64be-d_1920?region=us',
     description: 'Music visualizer for Omah Lay\'s "Holy Ghost" single.',
     longDescription: 'A spiritual, atmospheric music visualizer for Omah Lay\'s "Holy Ghost." The piece uses ethereal light effects, flowing particles, and a celestial color palette to match the track\'s transcendent quality. The animation creates a meditative visual space that invites the viewer to sit with the music rather than just watch it.',
     role: 'Motion Designer, Animator',
     client: 'Omah Lay',
     year: '2023',
-    thumbnail: '',
   },
   {
     id: 'edward-logo',

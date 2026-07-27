@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { ArrowUpRight, Play } from 'lucide-react'
 import { useReveal } from '../hooks/useReveal'
-import { projects, categories, type Project, type Category } from '../data/projects'
+import { projects, categories, sortByThumbnail, type Project, type Category } from '../data/projects'
 
 type Props = {
   onOpenProject: (project: Project) => void
@@ -13,8 +13,8 @@ export function Work({ onOpenProject }: Props) {
 
   const portfolioProjects = projects.filter((p) => p.id !== 'showreel')
   const filtered = activeCategory === 'All'
-    ? portfolioProjects
-    : portfolioProjects.filter((p) => p.category === activeCategory)
+    ? sortByThumbnail(portfolioProjects)
+    : sortByThumbnail(portfolioProjects.filter((p) => p.category === activeCategory))
 
   return (
     <section id="work" className="px-5 py-24">
