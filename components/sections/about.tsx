@@ -1,55 +1,25 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { about } from "@/lib/site-content";
 import { Reveal, MaskReveal } from "@/components/primitives/reveal";
 import { ChevronDown } from "lucide-react";
 
 export function About() {
   const ref = useRef<HTMLElement>(null);
-  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
-  const y = useTransform(scrollYProgress, [0, 1], [40, -40]);
 
   return (
     <section ref={ref} id="about" className="relative py-32 sm:py-48">
       <div className="editorial-container">
 
         {/* ── Bio row ────────────────────────────────────────────────── */}
-        <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-24">
-          {/* Portrait */}
-          <div className="relative">
-            <Reveal>
-              <span className="font-mono-label text-[10px] text-white/40">05 — About</span>
-            </Reveal>
-            <motion.div
-              style={{ y }}
-              className="group relative mt-8 aspect-[4/5] w-full overflow-hidden"
-            >
-              <img
-                src={about.portrait}
-                alt={about.name}
-                loading="lazy"
-                className="h-full w-full object-cover transition-transform duration-1000 ease-editorial group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-              <div className="pointer-events-none absolute inset-3 border border-white/15" />
-            </motion.div>
+        <div>
+          <Reveal>
+            <span className="font-mono-label text-[10px] text-white/40">05 — About</span>
+          </Reveal>
 
-            {/* Soft skills chips below portrait */}
-            <div className="mt-6 flex flex-wrap gap-2">
-              {about.softSkills.map((s, i) => (
-                <Reveal key={s} delay={i * 0.04}>
-                  <span className="rounded-full border border-white/15 px-3 py-1 font-mono-label text-[9px] text-white/50">
-                    {s}
-                  </span>
-                </Reveal>
-              ))}
-            </div>
-          </div>
-
-          {/* Bio */}
-          <div className="flex flex-col justify-center">
+          <div className="mt-8 flex flex-col justify-center">
             <h2 className="font-display text-[clamp(2rem,5vw,4.5rem)] leading-[0.95] tracking-[-0.02em] text-white">
               <MaskReveal text={about.name} />
             </h2>

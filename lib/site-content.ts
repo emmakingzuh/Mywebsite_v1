@@ -865,7 +865,7 @@ export const projects: Project[] = [
   {
     id: "window-wonderland",
     index: "13",
-    title: "Window Wonderland 2023",
+    title: "Window Wonderland",
     client: "The Junction BIA",
     year: "2023",
     category: "Augmented Reality",
@@ -1413,6 +1413,650 @@ export const projects: Project[] = [
         "A whimsical, experimental short that finds visual play in the juxtaposition of pirate ships and houses, published on YouTube Shorts.",
     },
     related: ["did-you-know", "toilet-paper-curtain"],
+  },
+  {
+    id: "piano-chords-his-cat",
+    index: "25",
+    title: "Piano Chords For His Cat",
+    client: "Personal Project",
+    year: "2024",
+    category: "Motion Graphics",
+    tags: ["Motion Graphics", "Animation", "Vertical"],
+    palette: ["#0ea5e9", "#0284c7", "#075985"],
+    hero: {
+      kind: "vimeo",
+      ref: "931705016",
+      poster:
+        "https://i.vimeocdn.com/video/1829058525-dd1dc11b75369e4e40a3a0b6527944874e2e954e653dcea6c5818dea2e1e571d-d_1920?region=us",
+      title: "Piano Chords For His Cat — Motion Animation",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829058525-dd1dc11b75369e4e40a3a0b6527944874e2e954e653dcea6c5818dea2e1e571d-d_1920?region=us",
+    excerpt:
+      "A charming vertical motion piece animating piano chords with a feline twist — fluid keyframes and playful character motion bringing a musical concept to life in a 9:16 format.",
+    caseStudy: {
+      overview:
+        "A personal motion graphics piece built for vertical platforms, 'Piano Chords For His Cat' blends musical animation with character-driven storytelling. The short format demanded a concept that could land instantly and reward repeated viewing.",
+      challenge:
+        "Vertical shorts must communicate a complete idea in seconds. The animation needed to fuse the structure of piano chord visualization with a character beat that felt natural, not forced.",
+      creativeDirection:
+        "A cool blue-forward palette evokes both music and mood. The piano keys drive the motion language — each chord strike triggers a character reaction, making the music visible and the cat's response the emotional payoff.",
+      process: [
+        "Concept development around the piano-and-cat motif.",
+        "Keyframe animation and chord visualization in After Effects.",
+        "Character motion synced to the musical phrasing.",
+        "Vertical export optimized for social platforms.",
+      ],
+      behindTheScenes:
+        "The piece was built around a simple idea — make the music visible through character. Every chord has a visual consequence, and the cat's reactions were timed to the harmonic rhythm rather than a separate animation layer.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829058525-dd1dc11b75369e4e40a3a0b6527944874e2e954e653dcea6c5818dea2e1e571d-d_1920?region=us",
+        "https://images.pexels.com/photos/7234253/pexels-photo-7234253.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7234213/pexels-photo-7234213.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A delightful vertical motion piece that visualizes piano chords through character animation, crafted for social-first consumption.",
+    },
+    related: ["strawberry-bubble-tea", "levitating-lemon"],
+  },
+  {
+    id: "cycling-loop",
+    index: "26",
+    title: "Cycling",
+    client: "Personal Project",
+    year: "2024",
+    category: "Motion Graphics",
+    tags: ["Motion Graphics", "Loop", "Experimental"],
+    palette: ["#22c55e", "#15803d", "#14532d"],
+    hero: {
+      kind: "vimeo",
+      ref: "931698011",
+      poster:
+        "https://i.vimeocdn.com/video/1829045728-32ae52e53bee4905f1e68fb50025267a5959f52debadaf7fe4dbbe002977e0f7-d_1920?region=us",
+      title: "Cycling — Loop Animation",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829045728-32ae52e53bee4905f1e68fb50025267a5959f52debadaf7fe4dbbe002977e0f7-d_1920?region=us",
+    excerpt:
+      "A seamless looping motion graphic exploring the rhythm of cycling — fluid animation and a square format designed for hypnotic, endless playback.",
+    caseStudy: {
+      overview:
+        "A personal looping animation built around the motion of cycling. The square format and seamless loop were designed for social feeds where the animation could play indefinitely without a visible restart.",
+      challenge:
+        "A perfect loop must begin and end on the exact same frame. The cycling motion had to feel continuous and natural, with no visible seam where the animation resets.",
+      creativeDirection:
+        "A fresh green palette evokes motion and the outdoors. The animation is built on a single continuous cycle — every element is timed to return to its starting position at the loop point, creating an endless, meditative rhythm.",
+      process: [
+        "Cycle concept and loop-point planning.",
+        "Animation and timing in After Effects.",
+        "Loop-seam testing across multiple playback speeds.",
+        "Square-format export for social platforms.",
+      ],
+      behindTheScenes:
+        "The loop was engineered mathematically — every animated property was set to complete exactly one full cycle within the duration, ensuring the first and last frames were pixel-identical.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829045728-32ae52e53bee4905f1e68fb50025267a5959f52debadaf7fe4dbbe002977e0f7-d_1920?region=us",
+        "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7234213/pexels-photo-7234213.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A seamless, hypnotic loop that captures the rhythm of cycling in a format built for endless social playback.",
+    },
+    related: ["desert-kartin", "strawberry-bubble-tea"],
+  },
+  {
+    id: "rema-visualizer",
+    index: "27",
+    title: "Rema",
+    client: "Rema",
+    year: "2024",
+    category: "Music Visualizers",
+    tags: ["Motion Graphics", "Music Visualizer", "Afrobeats"],
+    palette: ["#f97316", "#ea580c", "#7c2d12"],
+    hero: {
+      kind: "vimeo",
+      ref: "931712054",
+      poster:
+        "https://i.vimeocdn.com/video/1829070930-56cd154dee62d4f32702fb85ac372dba343a809c44f8c2a7d84d6b3e7e66245f-d_1920?region=us",
+      title: "Rema — Music Visualizer",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829070930-56cd154dee62d4f32702fb85ac372dba343a809c44f8c2a7d84d6b3e7e66245f-d_1920?region=us",
+    excerpt:
+      "A vibrant music visualizer for Rema — kinetic type and reactive motion graphics driving the energy of one of afrobeats' brightest stars in a bold square format.",
+    caseStudy: {
+      overview:
+        "A music visualizer for Rema, designed to match the artist's charismatic energy with equally bold motion design. The square format was chosen for cross-platform versatility across social and streaming contexts.",
+      challenge:
+        "Rema's music carries a distinct afrobeats swagger — the visualizer needed to feel confident and rhythmic without overpowering the track's groove. The motion had to complement, not compete.",
+      creativeDirection:
+        "A warm orange palette radiates energy and confidence. Typography is bold and rhythmic, moving in lockstep with the beat. Background elements pulse with the track's percussion, creating a visual system that breathes with the music.",
+      process: [
+        "Track analysis to map the afrobeats rhythm and vocal phrasing.",
+        "Kinetic typography and motion system design in After Effects.",
+        "Reactive background elements synced to percussion.",
+        "Square-format composite and delivery.",
+      ],
+      behindTheScenes:
+        "The visualizer was built around the groove — every motion element was timed to the percussion pattern, creating a visual representation of the beat that you can feel as much as see.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829070930-56cd154dee62d4f32702fb85ac372dba343a809c44f8c2a7d84d6b3e7e66245f-d_1920?region=us",
+        "https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/3781338/pexels-photo-3781338.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A charismatic, beat-driven visualizer that matches Rema's energy with bold motion design in a versatile square format.",
+    },
+    related: ["omah-lay-holy-ghost", "joeboy-smh"],
+  },
+  {
+    id: "desert-kartin",
+    index: "28",
+    title: "Desert Kartin'",
+    client: "Personal Project",
+    year: "2024",
+    category: "Experimental Work",
+    tags: ["Motion Graphics", "Experimental", "Vertical"],
+    palette: ["#f59e0b", "#d97706", "#78350f"],
+    hero: {
+      kind: "vimeo",
+      ref: "931698388",
+      poster:
+        "https://i.vimeocdn.com/video/1829046370-57b826ae2440a2dce37e9bc2b12985830ccce7f02b0d54766e0f4c15de02d074-d_1920?region=us",
+      title: "Desert Kartin' — Experimental Motion",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829046370-57b826ae2440a2dce37e9bc2b12985830ccce7f02b0d54766e0f4c15de02d074-d_1920?region=us",
+    excerpt:
+      "An experimental vertical motion piece set in a desert landscape — playful animation and warm tones exploring motion and environment in a 9:16 format.",
+    caseStudy: {
+      overview:
+        "An experimental motion graphics piece set against a desert backdrop. The vertical format and short runtime were designed to explore how environment and motion interact in a mobile-first context.",
+      challenge:
+        "Experimental work without a brief requires self-definition. The piece needed a clear visual logic — why the desert, why the kart — and the confidence to commit to it fully.",
+      creativeDirection:
+        "A warm desert palette of ambers and golds. The motion is playful and grounded, with the karting element suggesting speed and movement through the landscape. The vertical frame emphasizes the vastness of the environment.",
+      process: [
+        "Concept development around the desert karting motif.",
+        "Motion design and environment animation in After Effects.",
+        "Warm colour grade evoking desert heat and light.",
+        "Vertical export optimized for social platforms.",
+      ],
+      behindTheScenes:
+        "The piece was an experiment in environmental motion — the desert wasn't just a backdrop but an active participant, with sand and light responding to the kart's movement through the frame.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829046370-57b826ae2440a2dce37e9bc2b12985830ccce7f02b0d54766e0f4c15de02d074-d_1920?region=us",
+        "https://images.pexels.com/photos/3781709/pexels-photo-3781709.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7234253/pexels-photo-7234253.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A playful, experimental vertical piece that explores motion within a desert environment, crafted for mobile-first viewing.",
+    },
+    related: ["cycling-loop", "pirate-ships-houses"],
+  },
+  {
+    id: "char-three",
+    index: "29",
+    title: "Char_3",
+    client: "Personal Project",
+    year: "2024",
+    category: "2D Animation",
+    tags: ["2D Animation", "Character Animation", "Experimental"],
+    palette: ["#3b82f6", "#1d4ed8", "#1e3a5f"],
+    hero: {
+      kind: "vimeo",
+      ref: "931714183",
+      poster:
+        "https://i.vimeocdn.com/video/1829074267-7716ac322e01368d1b8926ae1bae8cb5e07f1d3714b4f8a32a1a62c93d91eef5-d_1920?region=us",
+      title: "Char_3 — Character Animation",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829074267-7716ac322e01368d1b8926ae1bae8cb5e07f1d3714b4f8a32a1a62c93d91eef5-d_1920?region=us",
+    excerpt:
+      "A compact 2D character animation study — expressive motion and personality distilled into a square-format micro-piece that showcases rigging and animation craft.",
+    caseStudy: {
+      overview:
+        "A character animation study exploring personality and motion in a minimal format. The piece served as both a creative exercise and a showcase of rigging and animation technique.",
+      challenge:
+        "Character animation in seconds must convey personality instantly. With no narrative context, the motion itself had to communicate who the character is and how they move.",
+      creativeDirection:
+        "A cool blue palette keeps focus on the character. The animation is built around a single expressive action — every frame is designed to communicate personality through posing, timing, and ease.",
+      process: [
+        "Character concept and rigging setup.",
+        "Key posing and timing for expressive motion.",
+        "Animation refinement and ease curve tuning.",
+        "Square-format export.",
+      ],
+      behindTheScenes:
+        "The study was an exercise in distillation — how much personality can be communicated in four seconds? The answer was: a lot, if every frame is intentional.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829074267-7716ac322e01368d1b8926ae1bae8cb5e07f1d3714b4f8a32a1a62c93d91eef5-d_1920?region=us",
+        "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7234213/pexels-photo-7234213.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A distilled character animation study that communicates personality through motion in a minimal square format.",
+    },
+    related: ["humpty-loopty", "rbsm-marketplace"],
+  },
+  {
+    id: "humpty-loopty",
+    index: "30",
+    title: "Humpty Loopty",
+    client: "Personal Project",
+    year: "2024",
+    category: "2D Animation",
+    tags: ["2D Animation", "Character Animation", "Playful"],
+    palette: ["#fb923c", "#f97316", "#7c2d12"],
+    hero: {
+      kind: "vimeo",
+      ref: "931714198",
+      poster:
+        "https://i.vimeocdn.com/video/1829074327-6307ebc7ce19c54c9688939349e5f59d6bb8fb68dc921ca13394fb050a621c28-d_1920?region=us",
+      title: "Humpty Loopty — Character Animation",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829074327-6307ebc7ce19c54c9688939349e5f59d6bb8fb68dc921ca13394fb050a621c28-d_1920?region=us",
+    excerpt:
+      "A playful 2D character animation inspired by the Humpty Dumpty nursery rhyme — bouncy motion and warm tones bringing a classic character to life in a square micro-format.",
+    caseStudy: {
+      overview:
+        "A character animation piece reimagining Humpty Dumpty through motion design. The short, square-format piece was an exercise in bringing a familiar character to life with personality and bounce.",
+      challenge:
+        "A character everyone knows must still feel fresh. The animation needed to honour the nursery rhyme association while giving Humpty a personality that was distinctly his own through motion alone.",
+      creativeDirection:
+        "A warm orange palette gives Humpty a friendly, storybook quality. The motion is bouncy and characterful — the round shape suggests wobble and roll, and the animation leans into that physicality for personality.",
+      process: [
+        "Character concept and shape-based rigging.",
+        "Bouncy animation timing for storybook personality.",
+        "Motion refinement emphasizing roundness and wobble.",
+        "Square-format export.",
+      ],
+      behindTheScenes:
+        "The character's round shape drove every animation decision — a sphere wobbles, rolls, and bounces. The motion was designed to make the viewer feel that roundness through movement alone.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829074327-6307ebc7ce19c54c9688939349e5f59d6bb8fb68dc921ca13394fb050a621c28-d_1920?region=us",
+        "https://images.pexels.com/photos/7234213/pexels-photo-7234213.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A bouncy, characterful animation that reimagines Humpty Dumpty with storybook warmth in a square format.",
+    },
+    related: ["char-three", "predeet-english"],
+  },
+  {
+    id: "strawberry-bubble-tea",
+    index: "31",
+    title: "Strawberry Bubble Tea",
+    client: "Personal Project",
+    year: "2024",
+    category: "Motion Graphics",
+    tags: ["Motion Graphics", "Product Animation", "Vertical"],
+    palette: ["#f43f5e", "#e11d48", "#4c0519"],
+    hero: {
+      kind: "vimeo",
+      ref: "931717961",
+      poster:
+        "https://i.vimeocdn.com/video/1829080612-6e94bd91d2c093074128223f897d2a2fa6dbd2321bb9324d98acdceed4863298-d_1920?region=us",
+      title: "Strawberry Bubble Tea — Motion Design",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829080612-6e94bd91d2c093074128223f897d2a2fa6dbd2321bb9324d98acdceed4863298-d_1920?region=us",
+    excerpt:
+      "A delectable vertical motion piece celebrating strawberry bubble tea — fluid animation and a rose-toned palette making a beverage irresistible in a 9:16 format.",
+    caseStudy: {
+      overview:
+        "A product-focused motion graphics piece animating strawberry bubble tea for vertical social platforms. The short was designed to make a beverage feel as good as it tastes through motion alone.",
+      challenge:
+        "Food and beverage motion must trigger appetite, not just look pretty. The animation needed to make the viewer crave the drink — every element had to serve sensory appeal.",
+      creativeDirection:
+        "A rose and deep red palette evokes strawberry sweetness. The motion is fluid and organic — liquid pours, bubbles rise, and condensation forms. The animation is designed to be felt on the tongue as much as seen on the screen.",
+      process: [
+        "Concept development around the bubble tea experience.",
+        "Fluid animation and bubble dynamics in After Effects.",
+        "Colour grade emphasizing strawberry warmth and freshness.",
+        "Vertical export optimized for social platforms.",
+      ],
+      behindTheScenes:
+        "The piece was built around sensory motion — the rise of bubbles, the pour of liquid, the beading of condensation. Each element was animated to trigger a physical response in the viewer.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829080612-6e94bd91d2c093074128223f897d2a2fa6dbd2321bb9324d98acdceed4863298-d_1920?region=us",
+        "https://images.pexels.com/photos/7234253/pexels-photo-7234253.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/3781709/pexels-photo-3781709.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A mouthwatering vertical motion piece that makes strawberry bubble tea irresistible through fluid, sensory animation.",
+    },
+    related: ["levitating-lemon", "piano-chords-his-cat"],
+  },
+  {
+    id: "levitating-lemon",
+    index: "32",
+    title: "Levitating Lemon",
+    client: "Personal Project",
+    year: "2024",
+    category: "Motion Graphics",
+    tags: ["Motion Graphics", "Product Animation", "Vertical"],
+    palette: ["#eab308", "#ca8a04", "#422006"],
+    hero: {
+      kind: "vimeo",
+      ref: "931717992",
+      poster:
+        "https://i.vimeocdn.com/video/1829080680-d1b89c868964b1eaeb8e7c102ed15b2b4e1c09d3ff01ed7261a537a45bbc3703-d_1920?region=us",
+      title: "Levitating Lemon — Motion Design",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829080680-d1b89c868964b1eaeb8e7c102ed15b2b4e1c09d3ff01ed7261a537a45bbc3703-d_1920?region=us",
+    excerpt:
+      "A zesty vertical motion piece featuring a levitating lemon — playful physics-defying animation and a golden palette creating a refreshing visual in a 9:16 format.",
+    caseStudy: {
+      overview:
+        "A playful motion graphics piece featuring a levitating lemon, built for vertical social platforms. The short explored how defying physics through animation could create a sense of refreshment and surprise.",
+      challenge:
+        "Levitation must feel magical, not random. The animation needed a logic — why is the lemon floating? — and a payoff that made the impossibility feel intentional and delightful.",
+      creativeDirection:
+        "A bright golden-yellow palette radiates citrus freshness. The motion is gentle and gravity-defying — the lemon floats, rotates, and releases droplets in slow motion. The overall feel is refreshing and slightly surreal.",
+      process: [
+        "Concept development around the levitation motif.",
+        "Gravity-defying animation and droplet dynamics in After Effects.",
+        "Bright citrus colour grade.",
+        "Vertical export optimized for social platforms.",
+      ],
+      behindTheScenes:
+        "The levitation was grounded in a visual logic — the lemon rises as if lighter than air, with droplets falling away as the refreshment 'releases.' The impossibility was the point, but it had its own internal consistency.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829080680-d1b89c868964b1eaeb8e7c102ed15b2b4e1c09d3ff01ed7261a537a45bbc3703-d_1920?region=us",
+        "https://images.pexels.com/photos/3781709/pexels-photo-3781709.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7234253/pexels-photo-7234253.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A refreshing, gravity-defying vertical motion piece that makes a lemon feel magical through playful animation.",
+    },
+    related: ["strawberry-bubble-tea", "cycling-loop"],
+  },
+  {
+    id: "piano-party-cover-art",
+    index: "33",
+    title: "The Piano Party — Cover Art Animation",
+    client: "The Piano Party",
+    year: "2024",
+    category: "Motion Graphics",
+    tags: ["Motion Graphics", "Cover Art", "Music"],
+    palette: ["#3b82f6", "#1d4ed8", "#1e3a5f"],
+    hero: {
+      kind: "vimeo",
+      ref: "931753138",
+      poster:
+        "https://i.vimeocdn.com/video/1829136871-6c610ccffee0400dee71bf4a74ea5b7bbc8e733e14ece48f4390c013038b7746-d_1920?region=us",
+      title: "The Piano Party — Cover Art Animation",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829136871-6c610ccffee0400dee71bf4a74ea5b7bbc8e733e14ece48f4390c013038b7746-d_1920?region=us",
+    excerpt:
+      "An animated cover art piece for The Piano Party — bringing a static album cover to life with motion design that honours the music's elegance while adding a dynamic dimension.",
+    caseStudy: {
+      overview:
+        "An animated cover art piece for The Piano Party, transforming a static album cover into a living visual. The animation was designed to extend the cover's identity into motion while preserving its original composition.",
+      challenge:
+        "Cover art animation must respect the original design. The motion needed to enhance, not replace — adding life without compromising the cover's identity as a still image.",
+      creativeDirection:
+        "A deep blue palette evokes musical elegance. The animation is subtle and considered — elements drift, pulse, and breathe with the music. The motion is designed to loop seamlessly, so the cover feels alive whether watched for seconds or minutes.",
+      process: [
+        "Cover art analysis and motion concept development.",
+        "Subtle animation of cover elements in After Effects.",
+        "Seamless loop engineering for continuous playback.",
+        "Square-format export matching the cover dimensions.",
+      ],
+      behindTheScenes:
+        "The animation was designed to work both as a still and in motion — at any frame, the composition holds up as a cover. The motion was layered on top of the existing design rather than replacing it.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829136871-6c610ccffee0400dee71bf4a74ea5b7bbc8e733e14ece48f4390c013038b7746-d_1920?region=us",
+        "https://images.pexels.com/photos/7234213/pexels-photo-7234213.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "An elegant animated cover art that brings The Piano Party's album identity to life with subtle, looping motion design.",
+    },
+    related: ["wowo-cover-art", "haekins-cover-art"],
+  },
+  {
+    id: "wowo-cover-art",
+    index: "34",
+    title: "Wowo — Cover Art Animation",
+    client: "Wowo",
+    year: "2024",
+    category: "Motion Graphics",
+    tags: ["Motion Graphics", "Cover Art", "Music"],
+    palette: ["#10b981", "#047857", "#064e3b"],
+    hero: {
+      kind: "vimeo",
+      ref: "931752446",
+      poster:
+        "https://i.vimeocdn.com/video/1829135815-8d485a58491d79d4074749f07d58bd8558326da857de1007028cfd4ad912a9b9-d_1920?region=us",
+      title: "Wowo — Cover Art Animation",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829135815-8d485a58491d79d4074749f07d58bd8558326da857de1007028cfd4ad912a9b9-d_1920?region=us",
+    excerpt:
+      "An animated cover art piece for Wowo — a richly detailed motion design that transforms the static album cover into a dynamic visual narrative over nearly a minute of looping animation.",
+    caseStudy: {
+      overview:
+        "An animated cover art piece for Wowo, notable for its extended runtime — nearly a full minute of motion design built around the album's cover. The piece was designed to reward sustained viewing while working as a loop.",
+      challenge:
+        "Most cover art animations are short loops. At nearly a minute, this piece needed sustained visual interest — the motion had to evolve across the runtime without losing the cover's identity as the anchor.",
+      creativeDirection:
+        "A rich emerald palette gives the piece depth and sophistication. The animation unfolds in layers — new elements emerge, drift, and recede over the runtime, creating a sense of journey while the cover remains the constant core.",
+      process: [
+        "Cover analysis and extended-motion concept development.",
+        "Layered animation system in After Effects.",
+        "Runtime pacing for sustained visual interest.",
+        "Square-format export with seamless loop point.",
+      ],
+      behindTheScenes:
+        "The extended runtime was the creative challenge — the animation was structured in phases, with each section introducing new motion while building on the last. The loop point was engineered to return to the opening frame without a visible reset.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829135815-8d485a58491d79d4074749f07d58bd8558326da857de1007028cfd4ad912a9b9-d_1920?region=us",
+        "https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7234213/pexels-photo-7234213.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A richly detailed, extended cover art animation that transforms Wowo's album cover into a minute-long visual journey.",
+    },
+    related: ["piano-party-cover-art", "sokoto-cover-art"],
+  },
+  {
+    id: "haekins-cover-art",
+    index: "35",
+    title: "Haekins — Cover Art Animation",
+    client: "Haekins",
+    year: "2024",
+    category: "Motion Graphics",
+    tags: ["Motion Graphics", "Cover Art", "Music"],
+    palette: ["#fbbf24", "#f59e0b", "#78350f"],
+    hero: {
+      kind: "vimeo",
+      ref: "931752050",
+      poster:
+        "https://i.vimeocdn.com/video/1829135228-00c970494575196114ffc86c3d0ed9344320821183259f90bc8bb295f3e5d804-d_1920?region=us",
+      title: "Haekins — Cover Art Animation",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829135228-00c970494575196114ffc86c3d0ed9344320821183259f90bc8bb295f3e5d804-d_1920?region=us",
+    excerpt:
+      "An animated cover art piece for Haekins — warm amber motion design that brings the album cover to life with considered animation and a seamless loop.",
+    caseStudy: {
+      overview:
+        "An animated cover art piece for Haekins, designed to extend the album's visual identity into motion. The animation balanced detail with restraint, adding life to the cover without overwhelming its original composition.",
+      challenge:
+        "Cover art animation is a translation, not a reinvention. The motion needed to feel like a natural extension of the existing cover design — as if the cover had always been meant to move.",
+      creativeDirection:
+        "A warm amber palette radiates musicality and warmth. The animation is considered and measured — elements drift and settle with a gentle rhythm. The motion respects the cover's hierarchy, enhancing rather than distracting.",
+      process: [
+        "Cover design analysis and motion concept.",
+        "Measured animation of cover elements in After Effects.",
+        "Seamless loop engineering.",
+        "Square-format export matching cover dimensions.",
+      ],
+      behindTheScenes:
+        "The animation was designed to feel inevitable — every motion element was derived from the cover's existing shapes and composition. Nothing was added that didn't already exist in the still image.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829135228-00c970494575196114ffc86c3d0ed9344320821183259f90bc8bb295f3e5d804-d_1920?region=us",
+        "https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7234213/pexels-photo-7234213.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A warm, considered cover art animation that extends Haekins' album identity into motion with elegant restraint.",
+    },
+    related: ["piano-party-cover-art", "wild-west-cover-art"],
+  },
+  {
+    id: "sokoto-cover-art",
+    index: "36",
+    title: "Sokoto — Cover Art Animation",
+    client: "Sokoto",
+    year: "2024",
+    category: "Motion Graphics",
+    tags: ["Motion Graphics", "Cover Art", "Music"],
+    palette: ["#14b8a6", "#0d9488", "#134e4a"],
+    hero: {
+      kind: "vimeo",
+      ref: "931750435",
+      poster:
+        "https://i.vimeocdn.com/video/1829133027-b8f4d5eaa27242c54553012a468628a5e650f70aaca8403e6984f5beab5c8886-d_1920?region=us",
+      title: "Sokoto — Cover Art Animation",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829133027-b8f4d5eaa27242c54553012a468628a5e650f70aaca8403e6984f5beab5c8886-d_1920?region=us",
+    excerpt:
+      "An animated cover art piece for Sokoto — teal-toned motion design that animates the album cover with a concise, punchy loop designed for immediate visual impact.",
+    caseStudy: {
+      overview:
+        "An animated cover art piece for Sokoto, built for immediate impact in a short runtime. The animation was designed to land its visual idea quickly, making it suited for social feeds and streaming platforms alike.",
+      challenge:
+        "Short cover art animations must be instantly engaging. With only seconds to work with, the motion needed to communicate the cover's identity and energy without the luxury of a slow build.",
+      creativeDirection:
+        "A teal palette gives the piece a distinctive, grounded identity. The motion is punchy and direct — elements animate in with confidence and settle quickly. The loop is tight and energetic, designed for repeated viewing.",
+      process: [
+        "Cover analysis and high-impact motion concept.",
+        "Punchy animation timing in After Effects.",
+        "Tight loop engineering for seamless repetition.",
+        "Square-format export matching cover dimensions.",
+      ],
+      behindTheScenes:
+        "The short runtime demanded efficiency — every animation choice was stripped to its essence. The motion was designed to be understood in a single glance, with the loop rewarding repeated views.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829133027-b8f4d5eaa27242c54553012a468628a5e650f70aaca8403e6984f5beab5c8886-d_1920?region=us",
+        "https://images.pexels.com/photos/7234213/pexels-photo-7234213.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A punchy, distinctive cover art animation that delivers Sokoto's visual identity with immediate impact in a tight, seamless loop.",
+    },
+    related: ["wowo-cover-art", "wild-west-cover-art"],
+  },
+  {
+    id: "wild-west-cover-art",
+    index: "37",
+    title: "Wild West — Cover Art Animation",
+    client: "Wild West",
+    year: "2024",
+    category: "Motion Graphics",
+    tags: ["Motion Graphics", "Cover Art", "Music"],
+    palette: ["#ea580c", "#c2410c", "#7c2d12"],
+    hero: {
+      kind: "vimeo",
+      ref: "931751763",
+      poster:
+        "https://i.vimeocdn.com/video/1829134769-2934d7a8e45b250d1b2f2cc6cf9a7801cd644edc8cf57aa224a32ba30f0cf9ab-d_1920?region=us",
+      title: "Wild West — Cover Art Animation",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829134769-2934d7a8e45b250d1b2f2cc6cf9a7801cd644edc8cf57aa224a32ba30f0cf9ab-d_1920?region=us",
+    excerpt:
+      "An animated cover art piece for Wild West — rugged warm-toned motion design that evokes frontier spirit while bringing the album cover to life with cinematic animation.",
+    caseStudy: {
+      overview:
+        "An animated cover art piece for Wild West, leaning into the frontier theme with rugged motion design. The animation was built to evoke the spirit of the West while extending the album cover's visual identity into motion.",
+      challenge:
+        "Thematic cover art must balance concept with identity. The Wild West motif needed to feel authentic without becoming a pastiche, and the motion had to serve the cover rather than the theme.",
+      creativeDirection:
+        "A rugged orange and brown palette evokes dust, sunset, and frontier grit. The motion is cinematic — elements drift like wind-blown dust, with the cover's core elements anchoring the composition. The feel is atmospheric and grounded.",
+      process: [
+        "Cover analysis and frontier-themed motion concept.",
+        "Atmospheric animation with dust and wind dynamics in After Effects.",
+        "Warm, cinematic colour grade.",
+        "Square-format export with seamless loop.",
+      ],
+      behindTheScenes:
+        "The frontier theme was expressed through atmosphere rather than iconography — no cowboy hats or lassos, just the feeling of dust in the air and sun on the horizon. The motion was designed to evoke a place, not illustrate it.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829134769-2934d7a8e45b250d1b2f2cc6cf9a7801cd644edc8cf57aa224a32ba30f0cf9ab-d_1920?region=us",
+        "https://images.pexels.com/photos/3781709/pexels-photo-3781709.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A rugged, atmospheric cover art animation that evokes the Wild West spirit through cinematic motion design and a warm, dusty palette.",
+    },
+    related: ["haekins-cover-art", "sokoto-cover-art"],
+  },
+  {
+    id: "predeet-english",
+    index: "38",
+    title: "Predeet — English Version",
+    client: "Predeet",
+    year: "2024",
+    category: "2D Animation",
+    tags: ["2D Animation", "Explainer Video", "Character Animation"],
+    palette: ["#06b6d4", "#0891b2", "#164e63"],
+    hero: {
+      kind: "vimeo",
+      ref: "931757665",
+      poster:
+        "https://i.vimeocdn.com/video/1829143931-402cdce8410b16066dcbf5b8e2b6e50c332b99e8fdcbcb2dbd5b3e17d8b84aa4-d_1920?region=us",
+      title: "Predeet — English Version (2D Explainer)",
+    },
+    thumbnail:
+      "https://i.vimeocdn.com/video/1829143931-402cdce8410b16066dcbf5b8e2b6e50c332b99e8fdcbcb2dbd5b3e17d8b84aa4-d_1920?region=us",
+    excerpt:
+      "An English-language 2D explainer video for Predeet — character design, rigging, and animation translating the service's value proposition into a clear, engaging visual narrative.",
+    caseStudy: {
+      overview:
+        "An English-language version of the Predeet 2D explainer, created to extend the service's reach to an international audience. The production covered the full pipeline from script adaptation through final edit.",
+      challenge:
+        "Localizing an explainer for a new audience is more than translation. The animation and pacing had to be re-timed to the English voiceover while preserving the clarity and engagement of the original.",
+      creativeDirection:
+        "A fresh cyan palette maintains brand continuity with the original Predeet explainer. The character design and motion system carry over, with retimed animation to match the English narration's rhythm and emphasis.",
+      process: [
+        "Script localization and voiceover coordination.",
+        "Animation retiming to match English narration.",
+        "Character motion adjustments for pacing.",
+        "Compositing, editing, and final delivery.",
+      ],
+      behindTheScenes:
+        "Localization required rethinking the pacing — English narration has a different rhythm than the original language. Every scene's timing was adjusted to ensure the visuals stayed in sync with the new voiceover without rushing or dragging.",
+      gallery: [
+        "https://i.vimeocdn.com/video/1829143931-402cdce8410b16066dcbf5b8e2b6e50c332b99e8fdcbcb2dbd5b3e17d8b84aa4-d_1920?region=us",
+        "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7234213/pexels-photo-7234213.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      ],
+      finalResult:
+        "A localized English-language 2D explainer that extends Predeet's reach to an international audience with the same clarity and engagement as the original.",
+    },
+    related: ["predeet", "rbsm-marketplace"],
   },
 ];
 

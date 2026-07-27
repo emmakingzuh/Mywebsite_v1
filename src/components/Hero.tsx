@@ -63,7 +63,7 @@ function ProfileImage() {
       />
       <div className="relative h-56 w-56 overflow-hidden rounded-full border border-white/10 bg-surface-card sm:h-64 sm:w-64">
         <img
-          src="/profile.jpg"
+          src="/images/profile.jpg"
           alt="Emmanuel Okechukwu — Emmykingz Studios"
           className="h-full w-full object-cover"
           onError={(e) => {
